@@ -39,7 +39,7 @@ function seleccionarPeli(){
 /*Se dibujan las localidades de la sala diferenciando si están disponibles o no  */
 function pintarButacas(){
     contenedor.innerHTML="<br>";
-    contenedor.innerHTML+="<h3>PATIO DE BUTACAS</h3>"
+    contenedor.innerHTML+="<h3>SALA DE CINE</h3>"
     for (i=1;i<=numButacas;i++){
             if (vendidas.includes(i)){
                 contenedor.innerHTML+="<button id='butaca"+i+"' class='ocupado'>"+i+"</button> ";
